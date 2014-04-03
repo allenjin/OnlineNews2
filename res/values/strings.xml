@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">掌中山大</string>
+    <string name="menu_settings">设置</string>
+    <string name="ab_dropdown_tx">学线通知</string>
+	<string name="sm_label_usual">常用</string>
+	<string name="sm_item_notification">通知</string>
+	<string name="sm_item_news">学线</string>
+	<string name="sm_item_search">搜索</string>
+	<string name="sm_item_shoucang">收藏</string>
+	
+	<string name="sm_label_more">更多</string>
+	<string name="sm_item_apps">应用中心</string>
+	
+	<string name="sm_label_operation">操作</string>
+	<string name="sm_item_settings">设置</string>
+	<string name="sm_item_exit">退出</string>
+	<!-- Toast -->
+	<string name="new_data_toast_message">有 %d 条更新</string>
+    <string name="new_data_toast_none">没有新更新</string>
+	<string name="new_data_toast_exception">网络异常</string>
+	<!-- Dialog info -->
+	<string name="dialog_exit_info">确定退出吗?</string>
+	<string name="dialog_confirm">确定</string>
+	<string name="dialog_cancel">取消</string>
+
+	<!-- newsListView  -->
+	<string name="load_more_tv">正在加载...</string>
+	<string name="load_more_fail">加载失败,点击重新加载</string>
+	
+	<!-- newsDetail Activity-->
+	<string name="action_bar_share_with">分享至…</string>
+	<string name="news_detail_original">查看网页原文</string>
+	<!-- search Activity -->
+	<string name="search_edit_hint">根据文章标题搜索</string>
+	<string name="search_button_text">搜索</string>
+	
+	<!-- otherNews -->
+	    <string name="other_logo_benke">本科生院</string>
+	    <string name="other_logo_yanjiusheng">研究生院</string>
+	    <string name="other_logo_guoji">国际交流</string>
+	    <string name="other_logo_houqin">后勤保障</string>
+	    <string name="other_logo_xiaoyi">校医院</string>
+	    <string name="other_logo_jiuye_yugao">就业预告</string>
+	    <string name="other_logo_jiuye_tongzhi">招聘通知</string>
+	    <string name="other_logo_jiuye_gonggao">就业公告</string>
+	    <string name="other_logo_gongxun">工训通知</string>
+	    <string name="other_logo_guofang">国防生通知</string>
+	    <string name="other_logo_qingchun">青春山大</string>
+	    <string name="other_logo_zizhu">资助中心</string>
+	<!-- content menu -->
+	<string name="menu_favorite_delete">删除</string>
+</resources>

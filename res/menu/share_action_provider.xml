@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_share_action_provider_action_bar"
+        android:showAsAction="always"
+        android:title="@string/action_bar_share_with"
+        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+     <item android:id="@+id/news_detail_activity_favorites"
+          android:title="@string/sm_item_shoucang"
+          android:icon="@drawable/news_detail_ab_favor"
+          android:showAsAction="always"/>
+</menu>

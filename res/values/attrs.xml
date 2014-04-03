@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="otherNewsBlock">
+        <attr name="blockDrawable" format="reference"/>
+        <attr name="blockText" format="string"/>
+        <attr name="blockBackground" format="color"/>
+        <attr name="blockTextColor" format="color"/>
+    </declare-styleable>
+</resources>

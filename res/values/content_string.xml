@@ -1,0 +1,23 @@
+<!-- content strings -->
+
+<resources>
+		
+	<string name="settings_scan">浏览设置</string>				
+	<string name="settings_software">软件设置</string>
+	<string name="content_font_chooser">选择字体大小</string>
+	<string name="app_school_bus">校车查询</string>
+	<string-array name="content_font_size">
+	    <item>小</item>
+	    <item>中</item>
+	    <item>大</item>
+	</string-array>
+	<string name="settings_img_load_chooser">图像加载模式</string>
+	<string-array name="settings_img_load">
+	    <item>只在wifi模式下加载</item>
+	    <item>始终加载</item>
+	    <item>从不加载</item>
+	</string-array>
+	<string name="settings_img_load_1">只在wifi模式下加载</string>
+	<string name="settings_img_load_2">始终加载</string>
+	<string name="settings_img_load_3">从不加载</string>
+</resources>

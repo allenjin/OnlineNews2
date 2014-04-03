@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slidingmenu_offset">50dp</dimen>
+    <dimen name="list_padding">5dp</dimen>
+    <dimen name="list_margin">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="sm_label_padding">15dp</dimen>
+    <dimen name="sm_label_height">30dp</dimen>
+    <dimen name="sm_item_height">50dp</dimen>
+    <dimen name="sm_item_padding">15dp</dimen>
+    <dimen name="sm_item_icon_padding">15dp</dimen>
+    
+    <dimen name="font_size_su_big">36dp</dimen>
+    <dimen name="font_size_big">36dp</dimen>
+    <dimen name="font_size_middle">36dp</dimen>
+    <dimen name="font_size_small">36dp</dimen>
+    
+    <dimen name="other_block_margin">3dp</dimen>
+    <dimen name="other_block_height_x1">100dp</dimen>
+     <dimen name="other_block_height_x2">200dp</dimen>
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+</resources>

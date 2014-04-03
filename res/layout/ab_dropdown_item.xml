@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:padding="8dp"
+     >
+    <ImageView 
+        android:id="@+id/ab_dropdown_item_icon"
+        android:src="@drawable/ab_item_qingchun"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:id="@+id/ab_dropdown_item_tx"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="@color/ab_dropdown_item_defalut"
+		android:textAppearance="@android:style/TextAppearance.Medium"
+		android:paddingLeft="5dp"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/ab_dropdown_item_icon"
+    />
+    <ImageView 
+        android:id="@+id/ab_dropdown_item_checked"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:src="@drawable/ab_item_checked_red"
+        />
+</RelativeLayout>

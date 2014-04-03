@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+    <include layout="@layout/notification_layout"
+        	android:id="@+id/main_notification_view"
+        	/>
+    <include layout="@layout/news_fragment"
+        	android:id="@+id/main_online_news_view"
+        	android:visibility="gone"/>
+    <include layout="@layout/search_layout"
+        	android:id="@+id/main_search_view"
+        	android:visibility="gone"/>
+    <include layout="@layout/favorite_layout"
+        	android:id="@+id/main_favorite_view"
+        	android:visibility="gone"/>
+    <include layout="@layout/app_center_layout"
+            android:id="@+id/main_app_view"
+            android:visibility="gone"/>
+</LinearLayout>

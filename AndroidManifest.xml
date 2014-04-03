@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="online.news"
+    android:versionCode="100"
+    android:versionName="2.1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+   <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>  
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/online_icon"
+        android:label="@string/app_name"
+        android:theme="@style/Sherlock.__Theme.Light" >
+        <activity
+            android:name="online.news.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar">
+        </activity>
+        <activity 
+            android:name="online.news.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            ></activity>
+        <activity 
+            android:name="online.news.NewsDetailActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            >
+        </activity>
+        <activity 
+            android:name="online.news.About"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            />
+        <activity 
+            android:name="online.news.Help"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            />
+         <activity 
+            android:name="online.news.OtherNewsListActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.Sherlock.Light.DarkActionBar"
+            >
+        </activity>  
+         <activity 
+            android:name="online.news.GuideActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/Theme.Sherlock.Light.NoActionBar"
+            >
+        </activity> 
+        <activity 
+              android:name="online.news.SplashActivity"
+              android:screenOrientation="portrait"
+              android:configChanges="orientation|keyboardHidden"
+              android:theme="@style/Theme.Sherlock.Light.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+               <!-- umeng start-->
+        <!-- sns start -->
+         <activity android:name="com.umeng.api.activity.OauthActivity"
+                  android:screenOrientation="unspecified"
+                  android:windowSoftInputMode="adjustResize"
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity android:name="com.umeng.api.activity.UpdateStatusActivity"
+                  android:windowSoftInputMode="stateVisible|adjustResize"
+                  android:screenOrientation="unspecified"
+                  android:configChanges="orientation|keyboardHidden">
+        </activity>
+        
+        <!-- sns end -->
+        <!-- feedback start -->
+        <activity android:name="com.umeng.fb.ui.SendFeedback"
+		    android:windowSoftInputMode="adjustResize" />
+		<activity android:name="com.umeng.fb.ui.FeedbackConversations" />
+		<activity android:name="com.umeng.fb.ui.FeedbackConversation"
+		    android:configChanges="keyboard" />
+		<!-- feedback end -->
+        <meta-data android:value="507a45125270154000000017" android:name="UMENG_APPKEY"/>
+        <meta-data android:value="online" android:name="UMENG_CHANNEL"/>
+        <!-- update download start -->
+        <service
+		    android:name="com.umeng.common.net.DownloadingService"
+		    android:exported="true"
+		    android:process=":DownloadingService" >
+		</service>
+        <!-- update download end -->
+        <!-- umeng end -->
+        
+    </application>
+
+</manifest>

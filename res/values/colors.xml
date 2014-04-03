@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="sm_item_color_default">#ffffffff</color> 
+	<color name="sm_item_color_red">#C94F4F</color>   
+	<color name="sm_item_bg">#292929</color>
+	<color name="sm_label_color">#aaaaaa</color>
+	<color name="sm_bg">#454545</color>
+	<color name="banner_tip_bg">#99000000</color>
+	<color name="banner_text_color">#ffffff</color>
+	<color name="banner_tip_focused">#ffC94F4F</color>
+	
+	<color name="fragment_bg">#fff</color>
+	<color name="search_btn_clicked_color">#771111</color>
+	
+	<color name="news_spinner_color">#C94F4F</color>
+	<color name="news_spinner_bg_clicked">#858585</color>
+	<color name="news_spinner_bg_normal">#ffffff</color>
+	<color name="news_detail_title_color">#000</color>
+	<color name="news_detail_content_color">#000</color>
+	<drawable name="news_detail_actionbar_bg">#99ffffff</drawable>
+	<color name="app_color_bg">#BBB81B1B</color>   
+	<color name="other_news_wp8_color">#ffffffff</color>
+	
+	<color name="toast_color_bg">#AAC94F4F</color>
+	<!-- abdropdown item color -->
+	<color name="ab_dropdown_item_defalut">#999999</color>
+	<color name="ab_dropdown_item_red">#C94F4F</color>
+</resources>

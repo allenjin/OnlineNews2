@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+   <FrameLayout 
+        android:id="@+id/hb_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+       <android.support.v4.view.ViewPager
+           android:id="@+id/hb_vf"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+          />
+       <TextView
+           android:id="@+id/hb_tx"
+           android:textColor="@color/banner_text_color"
+           android:text="@string/app_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/banner_tip_bg"
+           android:gravity="center_horizontal"
+           android:layout_gravity="bottom|center_horizontal"
+           android:paddingBottom="5dp"
+          />
+      <LinearLayout 
+       android:id="@+id/hb_tip"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|center_horizontal"
+       />
+   </FrameLayout>
+</LinearLayout>

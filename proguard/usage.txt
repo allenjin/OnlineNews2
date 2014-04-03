@@ -1,0 +1,766 @@
+com.google.gson.Cache:
+    public abstract java.lang.Object removeElement(java.lang.Object)
+    public abstract void clear()
+    public abstract int size()
+com.google.gson.CamelCaseSeparatorNamingPolicy
+com.google.gson.CircularReferenceException
+com.google.gson.CompositionFieldNamingPolicy
+com.google.gson.DefaultTypeAdapters:
+    55:884:DefaultTypeAdapters()
+com.google.gson.DefaultTypeAdapters$BigDecimalTypeAdapter:
+    633:633:public com.google.gson.JsonElement serialize(java.math.BigDecimal,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    630:630:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$BigIntegerTypeAdapter:
+    651:651:public com.google.gson.JsonElement serialize(java.math.BigInteger,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    647:647:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$BooleanTypeAdapter:
+    860:860:public com.google.gson.JsonElement serialize(java.lang.Boolean,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    857:857:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$ByteTypeAdapter:
+    747:747:public com.google.gson.JsonElement serialize(java.lang.Byte,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    745:745:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$CharacterTypeAdapter:
+    826:826:public com.google.gson.JsonElement serialize(java.lang.Character,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    823:823:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$CollectionTypeAdapter:
+    514:532:public com.google.gson.JsonElement serialize(java.util.Collection,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    510:510:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$DefaultDateTypeAdapter:
+    250:252:DefaultTypeAdapters$DefaultDateTypeAdapter(java.lang.String)
+    254:256:DefaultTypeAdapters$DefaultDateTypeAdapter(int)
+    258:260:public DefaultTypeAdapters$DefaultDateTypeAdapter(int,int)
+    265:268:public com.google.gson.JsonElement serialize(java.util.Date,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    243:243:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$DefaultJavaSqlDateTypeAdapter:
+    303:306:public com.google.gson.JsonElement serialize(java.sql.Date,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    294:294:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$DefaultTimeTypeAdapter:
+    339:342:public com.google.gson.JsonElement serialize(java.sql.Time,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    333:333:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$DoubleSerializer:
+    800:807:public com.google.gson.JsonElement serialize(java.lang.Double,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    792:792:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$EnumTypeAdapter:
+    404:404:public com.google.gson.JsonElement serialize(java.lang.Enum,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    400:400:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$FloatSerializer:
+    769:776:public com.google.gson.JsonElement serialize(java.lang.Float,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    761:761:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$GregorianCalendarTypeAdapter:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+    372:379:public com.google.gson.JsonElement serialize(java.util.GregorianCalendar,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    360:360:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$IntegerTypeAdapter:
+    714:714:public com.google.gson.JsonElement serialize(java.lang.Integer,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    711:711:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$LocaleTypeAdapter:
+    476:476:public com.google.gson.JsonElement serialize(java.util.Locale,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    473:473:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$LongSerializer:
+    690:690:public com.google.gson.JsonElement serialize(java.lang.Long,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    682:682:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$MapTypeAdapter:
+    578:597:public com.google.gson.JsonElement serialize(java.util.Map,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    573:573:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$NumberTypeAdapter:
+    668:668:public com.google.gson.JsonElement serialize(java.lang.Number,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    665:665:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$ShortTypeAdapter:
+    731:731:public com.google.gson.JsonElement serialize(java.lang.Short,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    728:728:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$StringTypeAdapter:
+    843:843:public com.google.gson.JsonElement serialize(java.lang.String,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    840:840:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$UriTypeAdapter:
+    441:441:public com.google.gson.JsonElement serialize(java.net.URI,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    439:439:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$UrlTypeAdapter:
+    421:421:public com.google.gson.JsonElement serialize(java.net.URL,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    419:419:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DefaultTypeAdapters$UuidTypeAdapter:
+    459:459:public com.google.gson.JsonElement serialize(java.util.UUID,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+    457:457:public bridge synthetic com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+com.google.gson.DelegatingJsonElementVisitor
+com.google.gson.ExposeAnnotationDeserializationExclusionStrategy
+com.google.gson.ExposeAnnotationSerializationExclusionStrategy
+com.google.gson.FieldAttributes:
+    private static final java.lang.String MAX_CACHE_PROPERTY_NAME
+    84:84:public java.lang.Class getDeclaringClass()
+    199:199:java.lang.Object get(java.lang.Object)
+    216:216:java.lang.reflect.Field getFieldObject()
+com.google.gson.FieldNamingPolicy
+com.google.gson.FieldNamingStrategy
+com.google.gson.FieldNamingStrategy2Adapter
+com.google.gson.Gson:
+    private static final java.lang.String NULL_STRING
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+    205:208:public com.google.gson.JsonElement toJsonTree(java.lang.Object)
+    228:233:public com.google.gson.JsonElement toJsonTree(java.lang.Object,java.lang.reflect.Type)
+    250:253:public java.lang.String toJson(java.lang.Object)
+    272:274:public java.lang.String toJson(java.lang.Object,java.lang.reflect.Type)
+    293:301:public void toJson(java.lang.Object,java.lang.Appendable)
+    320:322:public void toJson(java.lang.Object,java.lang.reflect.Type,java.lang.Appendable)
+    330:331:public void toJson(java.lang.Object,java.lang.reflect.Type,com.google.gson.stream.JsonWriter)
+    341:343:public java.lang.String toJson(com.google.gson.JsonElement)
+    356:367:public void toJson(com.google.gson.JsonElement,java.lang.Appendable)
+    374:386:public void toJson(com.google.gson.JsonElement,com.google.gson.stream.JsonWriter)
+    406:407:public java.lang.Object fromJson(java.lang.String,java.lang.Class)
+    457:460:public java.lang.Object fromJson(java.io.Reader,java.lang.Class)
+    538:539:public java.lang.Object fromJson(com.google.gson.JsonElement,java.lang.Class)
+    578:579:private void writeOutNullString(java.lang.Appendable)
+com.google.gson.GsonBuilder
+com.google.gson.InnerClassExclusionStrategy
+com.google.gson.JsonArray:
+    63:64:public void addAll(com.google.gson.JsonArray)
+    70:71:void reverse()
+com.google.gson.JsonElement:
+    129:132:public com.google.gson.JsonNull getAsJsonNull()
+com.google.gson.JsonElementVisitor
+com.google.gson.JsonFieldNameValidator:
+    private static final java.lang.String COMMON_PATTERN
+com.google.gson.JsonIOException:
+    private static final long serialVersionUID
+    34:35:public JsonIOException(java.lang.String,java.lang.Throwable)
+com.google.gson.JsonObject:
+    70:70:public com.google.gson.JsonElement remove(java.lang.String)
+    81:82:public void addProperty(java.lang.String,java.lang.String)
+    92:93:public void addProperty(java.lang.String,java.lang.Number)
+    103:104:public void addProperty(java.lang.String,java.lang.Boolean)
+    114:115:public void addProperty(java.lang.String,java.lang.Character)
+    124:124:private com.google.gson.JsonElement createJsonElement(java.lang.Object)
+    144:144:public boolean has(java.lang.String)
+    168:168:public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)
+    178:178:public com.google.gson.JsonArray getAsJsonArray(java.lang.String)
+    188:188:public com.google.gson.JsonObject getAsJsonObject(java.lang.String)
+com.google.gson.JsonParseException:
+    static final long serialVersionUID
+com.google.gson.JsonParser
+com.google.gson.JsonPrimitive:
+    74:76:public JsonPrimitive(java.lang.Character)
+    84:86:JsonPrimitive(java.lang.Object)
+com.google.gson.JsonSerializationContext
+com.google.gson.JsonSerializationContextDefault
+com.google.gson.JsonSerializationVisitor
+com.google.gson.JsonSerializer
+com.google.gson.JsonStreamParser
+com.google.gson.JsonSyntaxException:
+    private static final long serialVersionUID
+    30:31:public JsonSyntaxException(java.lang.String)
+    34:35:public JsonSyntaxException(java.lang.String,java.lang.Throwable)
+com.google.gson.JsonTreeNavigator
+com.google.gson.LongSerializationPolicy:
+    56:56:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$DefaultStrategy:
+    65:65:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$Strategy:
+    public abstract com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LongSerializationPolicy$StringStrategy:
+    71:71:public com.google.gson.JsonElement serialize(java.lang.Long)
+com.google.gson.LowerCamelCaseSeparatorNamingPolicy
+com.google.gson.LowerCaseNamingPolicy
+com.google.gson.LruCache:
+    private static final long serialVersionUID
+    54:54:public java.lang.Object removeElement(java.lang.Object)
+com.google.gson.MappedObjectConstructor:
+    102:106:void register(java.lang.reflect.Type,com.google.gson.InstanceCreator)
+com.google.gson.MemoryRefStack
+com.google.gson.ModifyFirstLetterNamingPolicy
+com.google.gson.ModifyFirstLetterNamingPolicy$LetterModifier
+com.google.gson.ObjectTypePair:
+    45:45:java.lang.reflect.Type getType()
+    134:134:public boolean isPreserveType()
+com.google.gson.ParameterizedTypeHandlerMap:
+    159:166:public synchronized com.google.gson.ParameterizedTypeHandlerMap copyOf()
+com.google.gson.Preconditions:
+    32:32:Preconditions()
+    44:47:public static void checkState(boolean)
+com.google.gson.Primitives:
+    30:30:private Primitives()
+com.google.gson.Streams:
+    30:153:Streams()
+    101:143:static void write(com.google.gson.JsonElement,boolean,com.google.gson.stream.JsonWriter)
+    146:146:static java.io.Writer writerForAppendable(java.lang.Appendable)
+com.google.gson.Streams$AppendableWriter
+com.google.gson.Streams$AppendableWriter$CurrentWrite
+com.google.gson.TypeAdapter
+com.google.gson.TypeInfo:
+    51:51:public final java.lang.Class getWrappedClass()
+    62:62:public final boolean isCollectionOrArray()
+    70:70:public final boolean isEnum()
+com.google.gson.TypeInfoFactory:
+    34:36:private TypeInfoFactory()
+com.google.gson.TypeUtils:
+    44:51:static java.lang.reflect.Type getActualTypeForFirstTypeVariable(java.lang.reflect.Type)
+    92:94:private TypeUtils()
+com.google.gson.UpperCamelCaseSeparatorNamingPolicy
+com.google.gson.UpperCaseNamingPolicy
+com.google.gson.VersionConstants
+com.google.gson.annotations.Expose
+com.google.gson.reflect.TypeToken:
+    73:76:private TypeToken(java.lang.reflect.Type)
+    79:82:private static java.lang.Object nonNull(java.lang.Object,java.lang.String)
+    100:100:static com.google.gson.reflect.TypeToken fromSuperclassTypeParameter(java.lang.Class)
+    137:137:public java.lang.Class getRawType()
+    151:151:public boolean isAssignableFrom(java.lang.Class)
+    158:175:public boolean isAssignableFrom(java.lang.reflect.Type)
+    184:184:public boolean isAssignableFrom(com.google.gson.reflect.TypeToken)
+    192:209:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.GenericArrayType)
+    219:266:private static boolean isAssignableFrom(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map)
+    275:285:private static boolean typeEquals(java.lang.reflect.ParameterizedType,java.lang.reflect.ParameterizedType,java.util.Map)
+    294:300:private static boolean matches(java.lang.reflect.Type,java.lang.reflect.Type,java.util.Map)
+    356:356:public static com.google.gson.reflect.TypeToken get(java.lang.reflect.Type)
+    363:363:public static com.google.gson.reflect.TypeToken get(java.lang.Class)
+    45:45:synthetic TypeToken(java.lang.reflect.Type,com.google.gson.reflect.TypeToken$1)
+com.google.gson.reflect.TypeToken$1
+com.google.gson.reflect.TypeToken$SimpleTypeToken
+com.umeng.analytics.Gender
+com.umeng.analytics.MobclickAgent:
+    public MobclickAgent()
+    public static void setAutoLocation(boolean)
+    public static void setSessionContinueMillis(long)
+    public static void setOnlineConfigureListener(com.umeng.analytics.UmengOnlineConfigureListener)
+    static com.umeng.analytics.b a()
+    public static void setOpenGLContext(javax.microedition.khronos.opengles.GL10)
+    public static void openActivityDurationTrack(boolean)
+    public static void setDebugMode(boolean)
+    public static void setDefaultReportPolicy(android.content.Context,int)
+    public static void onResume(android.content.Context,java.lang.String,java.lang.String)
+    public static void onError(android.content.Context,java.lang.String)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void flush(android.content.Context)
+    public static void onEvent(android.content.Context,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String,int)
+    public static void onEvent(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEvent(android.content.Context,java.lang.String,java.util.Map)
+    public static void onEventDuration(android.content.Context,java.lang.String,long)
+    public static void onEventDuration(android.content.Context,java.lang.String,java.lang.String,long)
+    public static void onEventDuration(android.content.Context,java.lang.String,java.util.Map,long)
+    public static void onEventBegin(android.content.Context,java.lang.String)
+    public static void onEventEnd(android.content.Context,java.lang.String)
+    public static void onEventBegin(android.content.Context,java.lang.String,java.lang.String)
+    public static void onEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    public static void onKVEventBegin(android.content.Context,java.lang.String,java.util.Map,java.lang.String)
+    public static void onKVEventEnd(android.content.Context,java.lang.String,java.lang.String)
+    public static java.lang.String getConfigParams(android.content.Context,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context,java.lang.String,java.lang.String)
+    public static void updateOnlineConfig(android.content.Context)
+    public void setGender(android.content.Context,com.umeng.analytics.Gender)
+    public void setAge(android.content.Context,int)
+    public void setUserID(android.content.Context,java.lang.String,java.lang.String)
+com.umeng.analytics.MobclickAgent$1
+com.umeng.analytics.MobclickAgentJSInterface
+com.umeng.analytics.MobclickAgentJSInterface$a
+com.umeng.analytics.ReportPolicy
+com.umeng.analytics.a:
+    private static final java.lang.String c
+com.umeng.analytics.b:
+    void a(android.content.Context,int)
+    void a(android.content.Context,java.lang.String)
+    void d(android.content.Context)
+    void a(android.content.Context,java.lang.String,java.lang.String,long,int)
+    void a(android.content.Context,java.lang.String,java.util.Map,long)
+    private synchronized void j(android.content.Context)
+    private void n(android.content.Context)
+    private org.json.JSONArray a(org.json.JSONObject,org.json.JSONArray)
+    private java.lang.String r(android.content.Context)
+    private void b(android.content.Context,int)
+    public void e(android.content.Context)
+    private synchronized void e(android.content.Context,java.lang.String)
+    void b(android.content.Context,java.lang.String)
+    void c(android.content.Context,java.lang.String)
+    void a(android.content.Context,java.lang.String,java.lang.String)
+    void b(android.content.Context,java.lang.String,java.lang.String)
+    void a(android.content.Context,java.lang.String,java.util.Map,java.lang.String)
+    void c(android.content.Context,java.lang.String,java.lang.String)
+    static synthetic void a(com.umeng.analytics.b,android.content.Context,java.lang.String)
+com.umeng.analytics.b$a:
+    b$a(com.umeng.analytics.b,android.content.Context,java.lang.String,java.lang.String,long,int,int)
+    b$a(com.umeng.analytics.b,android.content.Context,java.lang.String,java.util.Map,long,int)
+    b$a(com.umeng.analytics.b,android.content.Context,java.lang.String,java.util.Map,java.lang.String,int)
+com.umeng.analytics.c
+com.umeng.analytics.d:
+    static final java.lang.String a
+    static final java.lang.String b
+    static final java.lang.String c
+    static final int e
+    static final int f
+    static final java.lang.String m
+    static final java.lang.String o
+    static final java.lang.String p
+    static final java.lang.String r
+    static final java.lang.String s
+    static final java.lang.String t
+    static final java.lang.String u
+    static final java.lang.String v
+    static final java.lang.String w
+    static final java.lang.String x
+    static final java.lang.String y
+    static final java.lang.String z
+    d()
+com.umeng.analytics.e:
+    e()
+com.umeng.analytics.f:
+    f()
+com.umeng.analytics.g:
+    private static final int b
+    public g(android.content.Context,java.lang.String,int)
+    public int b()
+com.umeng.api.activity.OauthActivity:
+    private static final int DIALOG_ID_PROGRESS
+com.umeng.api.activity.UpdateStatusActivity:
+    private static final java.lang.String LocationProgressbarName
+    private static final java.lang.String LocationAddressTextViewName
+    private static final java.lang.String LocationSwitchButtonName
+com.umeng.api.sns.LocationAgent:
+    public static final int UPDATE_LATLNG
+    public static final int UPDATE_ADDRESS
+    public static final int UPDATE_ADDRESS_ERROR
+    private static final int TEN_SECONDS
+    private static final int TEN_METERS
+    private static final int TWO_MINUTES
+    private static final int MaxLocatingDuration
+com.umeng.api.sns.Manager:
+    142:191:public static java.lang.String post(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.umeng.api.sns.UMSnsService$SHARE_TO)
+com.umeng.api.sns.SnsParams:
+    public static java.lang.String UID
+    public static final long MAXIMGSIZE
+    public static final int SNS_MAX_STATUSLENGTH
+    public static final java.lang.String SNS_CURRENTVERSION
+    public static final java.lang.String CLIENTTYPE
+    public static final int SUCCESS_CODE
+    public static final int MIN_HTTPSTATUSCODE
+    public static final int MAX_HTTPSTATUSCODE
+    public static final java.lang.String SNS_SharedPrefer
+    public static final java.lang.String SNS_TOPICS
+    public static final java.lang.String SNS_SINA_UID
+    public static final java.lang.String SNS_TENC_UID
+    public static final java.lang.String SNS_RENR_UID
+    public static final java.lang.String SNS_SINA_NICKNAME
+    public static final java.lang.String SNS_TENC_NICKNAME
+    public static final java.lang.String SNS_RENR_NICKNAME
+    public static final java.lang.String SNS_SINA_ACCESSTOKEN
+    public static final java.lang.String SNS_TENC_ACCESSTOKEN
+    public static final java.lang.String SNS_RENR_ACCESSTOKEN
+    public static final java.lang.String JSON_RENR_DEFAULT_MSG
+    public static final java.lang.String JSON_SINA_DEFAULT_MSG
+    public static final java.lang.String JSON_TENC_DEFAULT_MSG
+    public static final java.lang.String RENR_DEFAULT_MSG
+    public static final java.lang.String SINA_DEFAULT_MSG
+    public static final java.lang.String TENC_DEFAULT_MSG
+    public static final java.lang.String SNS_HTTPHEADER_IMEI
+    public static final java.lang.String SNS_HTTPHEADER_KEY
+    public static final java.lang.String SNS_HTTPHEADER_VERSION
+    public static final java.lang.String SNS_HTTPHEADER_SECRET
+    public static final java.lang.String SNS_HEADER_CLIENTTYPE
+    public static final java.lang.String SNS_POST_CONTENT
+    public static final java.lang.String SNS_POST_UPFILE
+    public static final java.lang.String URL_SCHEMA
+    public static final java.lang.String ID
+    public static final java.lang.String LAYOUT
+    public static final java.lang.String STRING
+    public static final java.lang.String DRAWABLE
+    public static final java.lang.String STYLE
+    public static final java.lang.String SNS_RENR_UPLOAD_URL
+    public static final java.lang.String SNS_SINA_UPLOAD_URL
+    public static final java.lang.String SNS_TENC_UPLOAD_URL
+    public static final java.lang.String SNS_RENR_UPDATE_URL
+    public static final java.lang.String SNS_SINA_UPDATE_URL
+    public static final java.lang.String SNS_TENC_UPDATE_URL
+    public static final java.lang.String SNS_OAUTHINFO_URL_RENR
+    public static final java.lang.String SNS_OAUTHINFO_URL_SINA
+    public static final java.lang.String SNS_OAUTHINFO_URL_TENC
+    public static final java.lang.String SNS_OAUTH_URL_RENR
+    public static final java.lang.String SNS_OAUTH_URL_SINA
+    public static final java.lang.String SNS_OAUTH_URL_TENC
+    public static final java.lang.String SNS_URL_DEFAULT_MSG
+    public static final java.lang.String SNS_GEO2ADDRESS_URL
+    public static final java.lang.String UMSNSRenrUserInfoURL
+    public static final java.lang.String UMSNSSinaUserInfoURL
+    public static final java.lang.String UMSNSTencUserInfoURL
+    public static final java.lang.String UMSNSHotTopicListUrl
+    public static final java.lang.String UMSNSSinaFriendsListUrl
+    public static final java.lang.String UMSNSSinaPrivateMsgUrl
+    public static final java.lang.String UMSNSTencFriendsListUrl
+    public static final java.lang.String UMSNSTencPrivateMsgUrl
+    public static final java.lang.String UMSNSRenrFriendsListUrl
+    public static final java.lang.String UMSNSRenrPrivateMsgUrl
+    public static final int MODE
+    public static final java.lang.String SNS_POST_GPS_LAT
+    public static final java.lang.String SNS_POST_GPS_LNG
+    public static final java.lang.String SNS_POST_GPS_TIME
+    15:15:public SnsParams()
+com.umeng.api.sns.UMSNSException:
+    private static final long serialVersionUID
+    34:36:public UMSNSException(java.lang.String,java.lang.Throwable)
+    39:41:public UMSNSException(java.lang.String)
+com.umeng.api.sns.UMSnsService:
+    private static android.widget.PopupWindow alg
+    232:239:public static void shareToRenr(android.content.Context,java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    243:250:public static void shareToSina(android.content.Context,java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    254:261:public static void shareToTenc(android.content.Context,java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    266:275:public static void shareToRenr(android.content.Context,java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    280:289:public static void shareToSina(android.content.Context,java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    294:303:public static void shareToTenc(android.content.Context,java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    307:315:public static void shareToRenr(android.content.Context,byte[],java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    319:327:public static void shareToSina(android.content.Context,byte[],java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    331:339:public static void shareToTenc(android.content.Context,byte[],java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    344:354:public static void shareToRenr(android.content.Context,byte[],java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    359:369:public static void shareToSina(android.content.Context,byte[],java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    374:384:public static void shareToTenc(android.content.Context,byte[],java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    469:490:public static org.json.JSONObject getAccessToken(android.content.Context,com.umeng.api.sns.UMSnsService$SHARE_TO)
+    554:577:public static com.umeng.api.sns.UMSnsService$RETURN_STATUS update(android.content.Context,com.umeng.api.sns.UMSnsService$SHARE_TO,java.util.Map,java.lang.String,android.location.Location)
+    583:609:public static com.umeng.api.sns.UMSnsService$RETURN_STATUS update(android.content.Context,com.umeng.api.sns.UMSnsService$SHARE_TO,java.util.Map,java.lang.String,byte[],android.location.Location)
+    613:618:public static boolean isAuthorized(android.content.Context,com.umeng.api.sns.UMSnsService$SHARE_TO)
+    641:659:public static java.lang.String getAuthinfoFromCloud(android.content.Context,com.umeng.api.sns.UMSnsService$SHARE_TO)
+    689:709:public static java.lang.String getDefaultMsg(android.content.Context,com.umeng.api.sns.UMSnsService$SHARE_TO)
+    752:788:private static void shareCommon(android.content.Context)
+    792:800:private static void setShareDesdination(android.content.Context,android.widget.RelativeLayout,android.widget.RelativeLayout,android.widget.RelativeLayout,android.widget.RelativeLayout)
+    805:812:private static void setSharetoItem(android.content.Context,android.widget.RelativeLayout,int)
+    815:834:private static void myDismiss(int)
+    892:899:public static void share(android.content.Context,byte[],java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    904:912:public static void share(android.content.Context,byte[],java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    916:923:public static void share(android.content.Context,java.util.Map,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    927:932:public static void share(android.content.Context,java.lang.String,com.umeng.api.sns.UMSnsService$DataSendCallbackListener)
+    60:60:static synthetic java.lang.String access$5()
+    814:814:static synthetic void access$6(int)
+    61:61:static synthetic java.lang.String access$7()
+    62:62:static synthetic java.lang.String access$8()
+    63:63:static synthetic java.lang.String access$9()
+    836:836:static synthetic android.os.Handler access$12()
+    70:70:static synthetic android.widget.PopupWindow access$13()
+com.umeng.api.sns.UMSnsService$3
+com.umeng.api.sns.UMSnsService$3$1
+com.umeng.api.sns.UMSnsService$ClickListener
+com.umeng.api.sns.Util:
+    233:247:public static java.lang.String encodeUrl(android.os.Bundle)
+    359:391:public static android.location.Location getLocation(android.content.Context)
+com.umeng.common.Log:
+    public Log()
+    public static void d(java.lang.String,java.lang.String)
+    public static void d(java.lang.String,java.lang.String,java.lang.Exception)
+    public static void e(java.lang.String,java.lang.String,java.lang.Exception)
+com.umeng.common.a
+com.umeng.common.a.a:
+    public a()
+com.umeng.common.a.b:
+    public b()
+com.umeng.common.b:
+    protected static final java.lang.String b
+    private static final java.lang.String d
+    private static final java.lang.String e
+    public static final int c
+    public static boolean a(java.lang.String,android.content.Context)
+    public static boolean a(android.content.Context)
+    public static java.util.Set b(android.content.Context)
+    public static boolean c(android.content.Context)
+    public static java.lang.String[] a(javax.microedition.khronos.opengles.GL10)
+    public static java.lang.String h(android.content.Context)
+    public static java.lang.String i(android.content.Context)
+    public static java.lang.String a(java.util.Date)
+    public static java.util.Date a(java.lang.String)
+    public static int a(java.util.Date,java.util.Date)
+com.umeng.common.b.a
+com.umeng.common.b.b
+com.umeng.common.b.c
+com.umeng.common.b.d
+com.umeng.common.b.e
+com.umeng.common.b.f:
+    public f()
+    public static java.lang.String a(byte[],java.lang.String)
+com.umeng.common.b.g:
+    private static final java.lang.String b
+    public g()
+    public static java.lang.String a(android.content.Context,long)
+    public static void a(android.content.Context,java.lang.String)
+    public static boolean b(android.content.Context,java.lang.String)
+    public static boolean d(java.lang.String)
+com.umeng.common.b.h
+com.umeng.common.b.i
+com.umeng.common.c:
+    public int a(java.lang.String)
+    public int e(java.lang.String)
+com.umeng.common.net.DownloadingService:
+    static final int a
+    static final int b
+    static final int c
+    static final int d
+    static final int e
+    static final int f
+    static final java.lang.String g
+com.umeng.common.net.DownloadingService$a:
+    private static final long j
+com.umeng.common.net.a:
+    public void a(java.lang.String[])
+com.umeng.common.net.c:
+    private static final java.lang.String b
+    private static final java.lang.String c
+    private static final java.lang.String d
+    private static final java.lang.String e
+    private static final java.lang.String f
+    private static final java.lang.String g
+    private static final java.lang.String h
+    private static final java.lang.String j
+    public void a(java.lang.String,java.lang.String,java.lang.String)
+    public int b(java.lang.String,java.lang.String)
+    public java.lang.String c(java.lang.String,java.lang.String)
+    public java.util.Date d(java.lang.String,java.lang.String)
+    public void e(java.lang.String,java.lang.String)
+    public java.util.List a(java.lang.String)
+com.umeng.common.net.c$a:
+    private static final int b
+    private static final java.lang.String c
+com.umeng.common.net.c$b:
+    private c$b()
+com.umeng.common.net.f
+com.umeng.common.net.f$a
+com.umeng.common.net.f$b
+com.umeng.common.net.g
+com.umeng.common.net.h
+com.umeng.common.net.h$a
+com.umeng.common.net.i
+com.umeng.common.net.i$a
+com.umeng.common.net.i$b
+com.umeng.common.net.i$c
+com.umeng.common.net.j:
+    public com.umeng.common.net.j a(java.util.Map)
+com.umeng.common.net.k:
+    public java.lang.String d()
+com.umeng.fb.UMFeedbackService:
+    public UMFeedbackService()
+    public static void setGoBackButtonVisible()
+    public static void setRemarkMap(java.util.Map)
+com.umeng.fb.a:
+    public java.lang.String d
+com.umeng.fb.a.a:
+    private static final int b
+com.umeng.fb.a.b:
+    public b(java.lang.String)
+com.umeng.fb.b.a:
+    public a()
+com.umeng.fb.b.b:
+    public b()
+com.umeng.fb.b.c:
+    public c()
+    public static int l(android.content.Context)
+com.umeng.fb.b.d:
+    public d()
+com.umeng.fb.b.e:
+    public e()
+    public static int c(android.content.Context)
+    public static int k(android.content.Context)
+    public static int A(android.content.Context)
+com.umeng.fb.f:
+    public static final java.lang.String a
+    public static final java.lang.String b
+    public static final java.lang.String c
+    public static final int f
+    static final int g
+    public static final java.lang.String p
+    public static final java.lang.String s
+    public static final java.lang.String t
+    public static final java.lang.String v
+    public static final java.lang.String w
+    public static final java.lang.String x
+    public static final java.lang.String y
+    public static final java.lang.String z
+    public static final java.lang.String A
+    public static final java.lang.String B
+    public static final java.lang.String C
+    public static final java.lang.String D
+    public static final java.lang.String E
+    public static final java.lang.String F
+    public static final java.lang.String G
+    public static final java.lang.String H
+    public static final java.lang.String I
+    public static final java.lang.String J
+    public static final java.lang.String K
+    public static final java.lang.String L
+    public static final java.lang.String M
+    static final java.lang.String N
+    static final java.lang.String O
+    static final java.lang.String P
+    static final java.lang.String Q
+    static final java.lang.String R
+    public static final java.lang.String S
+    public static final java.lang.String T
+    public static final java.lang.String U
+    public static final java.lang.String V
+    public static final java.lang.String W
+    public static final java.lang.String X
+    public static final java.lang.String Y
+    public static final java.lang.String Z
+    public static final java.lang.String aa
+    public static final java.lang.String ab
+    public static final java.lang.String ac
+    public static final java.lang.String ad
+    public static final java.lang.String ae
+    public static final java.lang.String af
+    public static final java.lang.String ag
+    public static final java.lang.String ah
+    public static final java.lang.String ai
+    public static final java.lang.String aj
+    public static final java.lang.String ak
+    public static final java.lang.String al
+    public static final java.lang.String am
+    public static final java.lang.String an
+    public static final java.lang.String ao
+    public static final java.lang.String ap
+    public static final java.lang.String aq
+    public static final java.lang.String ar
+    public static final java.lang.String as
+    public static final java.lang.String at
+    public static final java.lang.String au
+    public static final java.lang.String av
+    public static final java.lang.String aw
+    public static final java.lang.String ax
+    public static final java.lang.String ay
+    public static final java.lang.String az
+    public static final java.lang.String aA
+    public static final int aB
+    public static final int aC
+    public static final int aD
+    public static final java.lang.String aE
+    public static final int aF
+    public static final int aG
+    public static final java.lang.String aH
+    public static final java.lang.String aI
+    public static final int aJ
+    public static final int aK
+    public static final java.lang.String aL
+    public static final java.lang.String aM
+    public static final java.lang.String aN
+    public static final java.lang.String aO
+    public static final java.lang.String aP
+    public static final java.lang.String aQ
+    public f()
+com.umeng.fb.g:
+    public g()
+    public static void a(android.content.Context)
+    public static java.lang.String a()
+    public static int a(java.util.Date,java.util.Date)
+    public static java.util.Date b(android.content.Context)
+    public static void a(android.content.Context,java.util.Date)
+    public static java.lang.String a(org.json.JSONObject)
+    public static java.lang.String b(org.json.JSONObject)
+com.umeng.fb.ui.FeedbackConversations:
+    private static final int c
+    private static final int d
+    private static final int e
+    private static final int f
+    private static final int g
+com.umeng.fb.ui.b:
+    java.lang.String c
+com.umeng.fb.ui.d:
+    org.json.JSONArray d
+    java.lang.String[] e
+    public com.umeng.fb.b$a a(int)
+com.umeng.fb.util.ActivityStarter:
+    public ActivityStarter()
+com.umeng.fb.util.a:
+    static final java.lang.String a
+    private static final int b
+    public a()
+com.umeng.fb.util.b:
+    public b()
+    public static synchronized boolean b(org.json.JSONObject)
+com.umeng.fb.util.c:
+    public c()
+com.umeng.update.UmengUpdateAgent:
+    private static final java.lang.String e
+    private static final java.lang.String g
+    private static final java.lang.String h
+    public static final java.lang.String a
+    public static void setOnDownloadListener(com.umeng.update.UmengDownloadListener)
+    public static void update(android.content.Context,java.lang.String)
+    public static void setUpdateOnlyWifi(boolean)
+    public static void destroy()
+    public static void update(android.content.Context,long)
+    private static android.content.SharedPreferences a(android.content.Context)
+com.umeng.update.UpdateStatus
+online.news.BuildConfig
+online.news.MainActivity:
+    private static final int SEARCH_MESSAGE_INIT
+    private static final int SEARCH_MESSAGE_EXCEPTION
+online.news.NewsDetailActivity:
+    private static final int MESSAGE_CONTENT_LOAD_FINISHED
+    private static final int MESSAGE_EXCEPTION
+online.news.OtherNewsListActivity:
+    private static final int MESSAGE_LOAD_MORE
+    private static final int MESSAGE_LOAD_FAIL
+    private static final int MESSAGE_INIT_LIST
+    private static final int MESSAGE_EXCEPTION
+    private static final int MESSAGE_NULL
+online.news.R:
+    10:10:public R()
+online.news.SplashActivity:
+    private static final java.lang.String PREFS_NAME
+online.news.adapter.NewsPagerAdapter:
+    private static final int MESSAGE_INIT_LIST
+    private static final int MESSAGE_EXCEPTION
+    private static final int MESSAGE_NULL
+online.news.sql.DataBaseHelper:
+    public static final java.lang.String DATABASE_FILE_NAME
+    private static final int VERSION
+    public static final java.lang.String TABLE_PASSAGE
+    15:16:public DataBaseHelper(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)
+online.news.sql.PassageDAO:
+    private static final java.lang.String TAG
+    66:89:public online.news.entity.Passage getPassage(int)
+online.news.util.FileManager:
+    public static final java.lang.String suffix
+    15:15:private FileManager()
+online.news.util.FileNameUtil:
+    3:3:public FileNameUtil()
+online.news.util.HttpUtils:
+    7:7:public HttpUtils()
+online.news.util.OStrOperate:
+    12:13:private OStrOperate()
+    22:22:public static boolean hasValue(java.lang.String)
+online.news.util.UsefulStaticValues:
+    public static final int LOCAL_VIRTUAL_MACHINE_IP
+    public static final int LOCAL_IP
+    public static final int ONLINE_IP_01
+    public static final int ONLINE_IP_02
+    5:5:public UsefulStaticValues()
+online.news.widget.IconPagerAdapter
+online.news.widget.Wp8ImgWithTxtWidget
+org.apache.http.entity.mime.Header:
+    68:68:public java.util.List getFields()
+    84:92:public java.util.List getFields(java.lang.String)
+    97:106:public int removeFields(java.lang.String)
+    110:133:public void setField(org.apache.http.entity.mime.MinimalField)
+org.apache.http.entity.mime.HttpMultipart:
+    138:139:public HttpMultipart(java.lang.String,java.nio.charset.Charset,java.lang.String)
+    142:143:public HttpMultipart(java.lang.String,java.lang.String)
+    146:146:public java.lang.String getSubType()
+    150:150:public java.nio.charset.Charset getCharset()
+    154:154:public org.apache.http.entity.mime.HttpMultipartMode getMode()
+org.apache.http.entity.mime.MIME:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_TRANSFER_ENC
+    public static final java.lang.String CONTENT_DISPOSITION
+    public static final java.lang.String ENC_8BIT
+    public static final java.lang.String ENC_BINARY
+    36:36:public MIME()
+org.apache.http.entity.mime.content.AbstractContentBody:
+    61:61:public java.lang.String getMediaType()
+    65:65:public java.lang.String getSubType()
+org.apache.http.entity.mime.content.ContentDescriptor:
+    public abstract java.lang.String getMediaType()
+    public abstract java.lang.String getSubType()
+org.apache.http.entity.mime.content.FileBody
+org.apache.http.entity.mime.content.InputStreamBody
+org.apache.http.entity.mime.content.StringBody:
+    58:60:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.lang.String,java.nio.charset.Charset)
+    69:69:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String,java.nio.charset.Charset)
+    76:76:public static org.apache.http.entity.mime.content.StringBody create(java.lang.String)
+    126:127:public StringBody(java.lang.String)
+    130:130:public java.io.Reader getReader()
+    140:141:public void writeTo(java.io.OutputStream,int)

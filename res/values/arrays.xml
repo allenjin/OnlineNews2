@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="online_news_labels">
+        <item>学线头条</item>
+        <item>缤纷海报</item>
+        <item>热点时评</item>
+        <item>深度报道</item>
+        <item>山大时讯</item>
+        <item>学院风采</item>
+    </string-array>
+    <string-array name="notification_labels">
+        <item>学线通知</item>
+        <item>青春山大</item>
+        <item>本科生院</item>
+        <item>研究生院</item>
+        <item>国际交流</item>
+        <item>招聘通知</item>
+        <item>就业预告</item>
+        <item>就业公告</item>
+    </string-array>
+</resources>
